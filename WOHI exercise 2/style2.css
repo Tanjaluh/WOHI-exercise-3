@@ -1,0 +1,58 @@
+body{
+    font-family: Roboto, sans-serif;
+    padding: 20px;
+    
+}
+nav{
+    background-color: #cfeafc;
+    
+
+}
+.nav-item{
+    margin-left: 15px;
+}
+img{
+    border-style: solid;
+    border-radius: 70px;
+    border-color: #cfeafc;
+    border-width: 10px;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    
+}
+.etusivu{
+    padding-top: 15px;
+}
+.kysymys{
+    font-size: larger;
+}
+.youtube{
+    position: relative;
+    max-width: 800px;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+.youtube iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.spotify{
+    position: relative;
+    max-width: 800px;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+.spotify iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.table{
+    overflow-x: auto;
+}
